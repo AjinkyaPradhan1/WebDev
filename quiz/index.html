@@ -11,7 +11,7 @@
 <body>
     
     
-    <form id="kbc">
+    <form class="kbc">
         <fieldset>
             <legend>Kaun Banega CrorePati</legend>
 
@@ -52,8 +52,8 @@
                 <center><img src="./italy.svg" style="width:300px; height:200px;"></center>
                 
                     <div id="ans1">
-                        <input type="radio" name="q2" value="rome">
-                        Rome
+                        <input type="radio" name="q2" value="genoa">
+                        Genoa
                     </div>
 
                     <div id="ans2">
@@ -67,8 +67,8 @@
                     </div><br>
 
                     <div id="ans4">
-                        <input type="radio" name="q2" value="genoa">
-                        Genoa
+                        <input type="radio" name="q2" value="rome">
+                        Rome
                     </div>
                 
             </div>
@@ -81,22 +81,22 @@
                 <center><img src="./messi.jpg" style="width:200px; height:200px;"></center>
                 
                     <div id="ans1">
-                        <input type="radio" name="q2" value="arg">
-                        Argentina
+                        <input type="radio" name="q3" value="spain">
+                        Spain
                     </div>
 
                     <div id="ans2">
-                        <input type="radio" name="q2" value="spain">
-                        Spain
+                        <input type="radio" name="q3" value="arg">
+                        Argentina
                     </div><br>
 
                     <div id="ans3">
-                        <input type="radio" name="q2" value="france">
+                        <input type="radio" name="q3" value="france">
                         France
                     </div><br>
 
                     <div id="ans4">
-                        <input type="radio" name="q2" value="brazil">
+                        <input type="radio" name="q3" value="brazil">
                         Brazil
                     </div>
                 
@@ -110,22 +110,22 @@
                 <center><img src="./redFort.jpg" style="width:200px; height:200px;"></center>
                 
                     <div id="ans1">
-                        <input type="radio" name="q2" value="pak">
+                        <input type="radio" name="q4" value="pak">
                         Pakistan
                     </div>
 
                     <div id="ans2">
-                        <input type="radio" name="q2" value="ban">
-                        Bangladesh
-                    </div><br>
-
-                    <div id="ans3">
-                        <input type="radio" name="q2" value="ind">
+                        <input type="radio" name="q4" value="ind">
                         India
                     </div><br>
 
+                    <div id="ans3">
+                        <input type="radio" name="q4" value="ban">
+                        Bangladesh
+                    </div><br>
+
                     <div id="ans4">
-                        <input type="radio" name="q2" value="sl">
+                        <input type="radio" name="q4" value="sl">
                         SriLanka
                     </div>
                 
@@ -139,22 +139,22 @@
                 <center><img src="./putin.jpg" style="width:200px; height:200px;"></center>
                 
                     <div id="ans1">
-                        <input type="radio" name="q2" value="usa">
+                        <input type="radio" name="q5" value="usa">
                         USA
                     </div>
 
                     <div id="ans2">
-                        <input type="radio" name="q2" value="uk">
+                        <input type="radio" name="q5" value="uk">
                         UK
                     </div><br>
 
                     <div id="ans3">
-                        <input type="radio" name="q2" value="chn">
-                        China
+                        <input type="radio" name="q5" value="russia">
+                        Russia
                     </div><br>
 
                     <div id="ans4">
-                        <input type="radio" name="q2" value="ukr">
+                        <input type="radio" name="q5" value="ukr">
                         Ukraine
                     </div>
                 
@@ -164,11 +164,15 @@
             <div id="divider"></div>
 
 
-            <center><button type="button" class="button"><strong>Submit</strong></button></center>
+            <center><button type="button" id="button" onclick="checkAns()"><strong>Submit</strong></button></center>
         </fieldset>
 
         
     </form>
+
+    <div id="output">
+
+    </div>
 
 <script src="quiz.js"></script>
 </body>
