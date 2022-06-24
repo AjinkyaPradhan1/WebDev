@@ -1,0 +1,71 @@
+body{
+    background-color: azure;
+}
+
+#initial{
+    margin-top: -120px;
+    
+}
+
+#heading{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+}
+
+#option{
+    margin-left: 223px;
+}
+
+#rec{
+    margin-left: 300px;
+    text-align: left;
+    float: left;
+}
+
+#recAns{
+    margin-left: 600px;
+    margin-top: 15px;
+    
+    
+}
+
+#likeWeb{
+    margin-left: 250px;
+}
+
+#things{
+    margin-left: 250px;
+    font-weight: bold;
+    float: left;
+}
+
+#chkoptions{
+    margin-left: 550px;
+    
+}
+
+
+input[type=text]:focus{
+    background-color: #0099ff;
+}
+
+input[type=email]:focus{
+    background-color: #0099ff;
+}
+
+input[type=number]:focus{
+    background-color: #0099ff;
+}
+
+.button{
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #0099ff;
+    padding: 10px 20px;
+    color: black;
+}
+
+
+i{
+    font-size: 20px;
+}
