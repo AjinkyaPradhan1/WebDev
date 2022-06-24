@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="styleForm.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,700&family=Smooch&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+   
+    
+    <form>
+    <fieldset>
+        <div id="last">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1340 320">
+                <path fill="#0099ff" fill-opacity="1" d="M0,256L60,213.3C120,171,240,85,
+                360,58.7C480,32,600,64,720,106.7C840,149,960,203,1080,202.7C1200,203,1320,
+                149,1380,122.7L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,
+                0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        </div>
+        <legend><center><h3><div id="heading">Web Dev Mentorship Survey Form</div></h3></center></legend>
+
+        <center>
+            <div id="initial">
+
+            
+                <p><strong><i>Let us know how to improve Web Dev Mentorship??</i></strong></p><br>
+
+                <label><strong><font color="red">*</font> Name: &nbsp;</strong></label>
+                <input type="text" name="name" id="name" required><br><br>
+
+                <label><strong><font color="red">*</font> Email: &nbsp;</strong></label>
+                <input type="email" name="email" id="email" required><br><br>
+
+                <label><strong><font color="red">*</font> Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></label>
+                <input type="number" name="age" id="age" required><br><br>
+
+            </div>
+        </center>
+
+       <div id="option">
+        <label><strong>Which option currently describes your current role:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></label>
+            <select>
+                <option id="student">Student</option>
+                <option id="teacher">Teacher</option>
+                <option id="ug">Under Graduate</option>
+                <option id="pg">Post Graduate</option>
+            </select>
+        </div>
+            
+        <div id="rec">
+            <label><strong><p>How likely is that you would recommend<br>
+                            web dev mentorship to your friend? :</p>  </strong></label>
+        </div>
+
+        <div id="recAns">
+            <input type="radio" id="def" name="ans" value="Definitely">
+            <label for="def">Definitely</label><br>
+            <input type="radio" id="no" name="ans" value="No">
+            <label for="no">No</label><br>
+            <input type="radio" id="maybe" name="ans" value="maybe">
+            <label for="maybe">Maybe</label>
+        </div>
+
+        
+        
+        <br>
+        <br>
+        
+    
+        <div id="likeWeb">
+        <label><strong>What do you like the most in Web Dev Sessions? &nbsp;&nbsp;&nbsp;</strong></label>
+            <select>
+                <option id="select">Select any one</option>
+                <option id="rbm">Raghav's Motivation</option>
+                <option id="ut">Unzela's Internet Speed</option>
+                <option id="acs">Actually Everything</option>
+                <option id="cd">Don't Know</option>
+            </select>
+        </div>
+            <br>
+            <br>
+    
+        <div id="things">
+        Things that should be added in the future: </strong></label>
+        </div>
+
+        <div id="chkoptions">
+
+            <input type="checkbox" name="chck" value="ma">
+            <label name="ma">More Assgn</label><br>
+            
+            <input type="checkbox" name="chck" value="pt">
+            <label name="pt">Programming Tips</label><br>
+            
+            &nbsp;&nbsp;<input type="checkbox" name="chck" value="dknow">
+            <label name="dk">&nbsp;Don't Know</label>
+        
+       
+        </div>
+
+        <br>
+        <br>
+
+        <center><button type="button" class="button"><strong>Submit</strong></button></center>
+    
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="1" d="M0,256L60,213.3C120,
+                171,240,85,360,58.7C480,32,600,64,720,106.7C840,149,960,203,
+                1080,202.7C1200,203,1320,149,1380,122.7L1440,96L1440,320L1380,
+                320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,
+                480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+        </div>
+    </fieldset>
+
+    
+</form>
+    
+</body>
+</html>
