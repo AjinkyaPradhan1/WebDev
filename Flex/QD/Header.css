@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 50vh;
+    color: white;    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    background-color: #6200ee;
+}
+
+.Headheader{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-grow: 3;
+    
+}
+
+.Headcontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    flex-grow: 1;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 40%;
+    height: 100%;
+    flex-grow: 3;
+    
+}
+
+.logoleft{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 80%;
+    
+    
+}
+
+.logoright{
+    display: flex;
+    width: 40%;
+    height: 80%;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    overflow: auto;
+}
+
+
+.others{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    flex-grow: 2;
+}
+
+.Headcontentleft{
+    display: flex;
+    flex-grow: 1;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.Headcontentright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.one,.two,.three{
+    display: flex;
+    width: 30%;
+    height: 80%;
+    justify-content: center;
+    align-items:center ;
+}
+
+
+
+
+
+
+
+
+
